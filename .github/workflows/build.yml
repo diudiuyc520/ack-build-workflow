@@ -31,12 +31,12 @@ on:
       custom_kernel_repo:
         description: 'Custom kernel repository'
         required: true
-        default: 'https://github.com/chickendrop89/device_xiaomi_unified-kernel'
+        default: 'https://github.com/diudiuyc520/crux-marisa.git'
         type: string
       custom_kernel_repo_branch:
         description: 'Custom kernel repository branch'
         required: true
-        default: 'android13-5.15-lts'
+        default: 'marisa-4.14.336'
         type: string
       use_latest_clang:
         description: 'Use the latest clang prebuilts (Check README!)'
